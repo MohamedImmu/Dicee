@@ -1,2 +1,2 @@
 # Dicee
-Simple dicee
+Dicee game
