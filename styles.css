@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #f5c670;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #4f3b1c;
+  font-size: 8rem;
+  color: #e95035;
+}
+
+p {
+  font-size: 2rem;
+  color: #4f3b1c;
+
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #4f3b1c;
+  text-align: center;
+
+  font-size: 1.5rem;
+
+}
+a{
+  text-decoration: none;
+  color: #4f3b1c;
+}
+
+.myButton {
+	background-color:#e95035;
+	border-radius:28px;
+	border:1px solid #4f3b1c;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 76px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #4f3b1c;
+  text-align: center;
+  margin: auto;
+}
+.myButton:hover {
+	background-color:#4f3b1c;
+}
+
+
+.position{
+  position: absolute;
+  top: 200px;
+  left: 43.5%;
+
+
+}
+.mar{
+  margin-bottom: 50px;
+}
+
+
+/* grid */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  img{
+    width: 60%;
+  }
+  .res{
+    width: 60%
+  }
+}
