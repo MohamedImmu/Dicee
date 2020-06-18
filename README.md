@@ -1,0 +1,2 @@
+# Dicee
+Simple dicee
